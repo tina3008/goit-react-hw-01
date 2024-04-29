@@ -4,6 +4,9 @@ import userData from "./userData.json";
 import friends from "./FriendList/friends.json";
 import FriendList from "./FriendList/FriendList";
 
+import transactions from './transactions/transactions.json';
+import TransactionHistory from './transactions/TransactionHistory'
+
 import clsx from "clsx";
 
 
@@ -19,6 +22,7 @@ export default function App (){
           stats={userData.stats}
         />
         <FriendList friends={friends} />
+        <TransactionHistory items={transactions} />
       </>
     );
   };

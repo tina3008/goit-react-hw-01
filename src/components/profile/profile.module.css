@@ -5,14 +5,30 @@
   align-items: center;
   border: 1px solid black;
   border-radius: 10px;
-
   font-size: large;
   font-weight: 600;
   list-style: none;
+  background-color: rgb(240, 240, 240);
+  width: 400px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.userInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  line-height: 1.2em;
+
 }
 .img {
   display: block;
-  width: 400px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 20px;
+
 }
 
 .list{
@@ -20,7 +36,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    margin: 0;
+    width: 100%;
+    padding-inline-start: 0;
 }
 .item{
     display: flex;
@@ -31,4 +49,18 @@
   background-color: rgb(182, 177, 177);
   padding: 10px;
   width: calc(100% / 3);
+  
+}
+
+.myName{
+  font-weight: 600;
+  font-size: larger;
+  margin: 0 auto 10px;
+  line-height: 1.2em;
+ 
+}
+.nameTxt{
+  margin: 0 auto;
+  line-height: 1.2em;
+  margin: 0 auto 10px;
 }

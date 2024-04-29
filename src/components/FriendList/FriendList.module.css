@@ -1,7 +1,8 @@
 .frendlist{
     display:flex;
     gap: 10px;
-    list-style: none;
-   
-
+    justify-content: center;
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
 }
